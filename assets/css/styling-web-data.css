@@ -803,10 +803,10 @@ About-Me style
     margin-left: 20px; /* Adjust as needed */
     width: 350px; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
-    box-shadow: 0 0 50px #d87093;
+    box-shadow: 0 0 40px #d87093;
     border-radius: 5%;
  }
-/*-----------------------------------------------*/
+/*--------------------------------#2a2a2a---------------*/
 
  .medialinks{
   margin-right: -450px;
@@ -815,7 +815,6 @@ About-Me style
   text-align: center;
   align-items: center;
   padding-block: 5px;
-
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 1.2%;
@@ -823,22 +822,20 @@ About-Me style
   opacity: 0.8;
  }
 
-.mediaicons i {
+.mediaicons  {
   font-size: 20px; /* Adjust font size as needed */
-  color: white; /* Set icon color */
+
   display: block; /* Make the icon behave like a block element */
   text-align: center; /* Center horizontally */
-  line-height: 40px; /* Adjust line-height based on cell height */
+  line-height: 30px; /* Adjust line-height based on cell height */
+  background-color: #1f2122;
+  padding: 1px 3px;
+
 }
 
 .mediaicons:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
-  transition-duration:400ms;
-  background-color: #2a2a2a;
-  border-radius: 50%;
-  padding: 3px 3px;
+  background-color: rgb(52, 39, 52);
+  padding: 1px 3px;
 }
 
 /*-------------------------------------------*/
